@@ -1,3 +1,5 @@
+<p align="center"><img src="https://raw.githubusercontent.com/Max13/SkyStorm/master/resources/img/logo.png" width="200" alt="SkyStorm Logo"></p>
+
 # SkyStorm
 
 SkyStorm est une réplique allégée de Twitter/X développée en Laravel 12 dans un contexte pédagogique pour la préparation à l’épreuve E6 du BTS SIO option SLAM. Le projet est construit en direct avec la classe afin d’illustrer un cycle complet de développement : conception, modélisation, implémentation et déploiement.
