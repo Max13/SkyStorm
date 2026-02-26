@@ -37,12 +37,13 @@ Le modèle de données repose sur deux entités principales : `users` et `posts`
 ### MCD (Mocodo)
 
 ```mocodo
+FOLLOW, 0N Users, 0N Users
 Users: id_user, name, email, password, created_at
-Posts: id_post, content, created_at
+LIKE, 0N Users, 0N Posts
 
-POSTER, 0N Users, 11 Posts
-SUIVRE, 0N Users, 0N Users
-LIKER, 0N Users, 0N Posts
+:
+POST, 0N Users, 11 Posts
+Posts: id_post, content, created_at
 ```
 
 ## Installation
